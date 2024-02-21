@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hwb(199 34% 20%); /* Light gray background */
+}
+
+header {
+    background-color: #690548; /* Pink header background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.hero {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5e0531; /* Pink CTA button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff; /* White container background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #0d2f4e; /* Pink button */
+    color: #e9dfdf;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e04d97; /* Pink footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Reduce the size of images */
+img {
+    max-width: 50%; /* Limit image size to the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images behave like block-level elements */
+    margin: 0 auto; /* Center images horizontally */
+}
+
+/* Reduce the size of images */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5e0531; /* Pink CTA button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin-bottom for space */
+}
+
