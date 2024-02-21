@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #360636;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+#about img {
+    border-radius: 30%;
+    max-width: 200px;
+    height: auto;
+}
+
+#skills,
+#projects,
+#resume,
+#contact {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #2c0227;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
